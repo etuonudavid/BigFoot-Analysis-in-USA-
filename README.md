@@ -14,31 +14,31 @@
 
 ## Data Sourcing
 This is a single table and contains 25 columns which are as follows
-    -observed: What the observer was doinh when he saw Bigfoot
-    -county: What county in the United States was the sighting recorded
-    -state: What state was the sighting recorded
-    -season: What season of the year was the sighting recorded
-    -title : The report title
-    -latitude: Lattitude of the place
-    -longitude: Longitude of the place
-    -dateL:The date the sighting was recorded
-    -number:
-    -classification: classification of the sighting: Type A(The observer saw Bigfoot), Type B(The observer saw a sign of Bigfoot such as Bigfoot), Type C (The observer was told and did not see directly)
-    -temperature_high: Highest temperature of the day
-    -temperature_mid: Medium temperature of the day
-    -temperature_low: lowest temperature of the day
-     dew_point:
-    -humidity:
-    -cloud_cover:
-    -moon_phase: The phase of the moon when the sighting was recorded
-    -precip_intensity
-    -precip_probability
-    -precip_type pressure
-    -summary : Summary of the weather under which the sighting was recorded
-    -uv_index: Ultaviolet light index when the sighting was recorded
-    visibility: Visibility ranging from 1 to 10
-    wind_bearing: direction of the wind when the sighting was recorded
-    wind_speed: Wind speed when the sighting was recorded
+-observed: What the observer was doinh when he saw Bigfoot
+-county: What county in the United States was the sighting recorded
+-state: What state was the sighting recorded
+-season: What season of the year was the sighting recorded
+-title : The report title
+-latitude: Lattitude of the place
+-longitude: Longitude of the place
+-dateL:The date the sighting was recorded
+-number:
+-classification: classification of the sighting: Type A(The observer saw Bigfoot), Type B(The observer saw a sign of Bigfoot such as Bigfoot), Type C (The observer was told and did not see directly)
+-temperature_high: Highest temperature of the day
+-temperature_mid: Medium temperature of the day
+-temperature_low: lowest temperature of the day
+-dew_point:
+-humidity:
+-cloud_cover:
+-moon_phase: The phase of the moon when the sighting was recorded
+-precip_intensity
+-precip_probability
+-precip_type pressure
+-summary : Summary of the weather under which the sighting was recorded
+-uv_index: Ultaviolet light index when the sighting was recorded
+visibility: Visibility ranging from 1 to 10
+wind_bearing: direction of the wind when the sighting was recorded
+wind_speed: Wind speed when the sighting was recorded
 There are 5,022 rows
 
 The data is gotten from Kaggle.
@@ -47,10 +47,10 @@ The data is gotten from Kaggle.
 The columns cleaned and transformed were the ones beign used for the analysis.
 The summary column was very important in the analysis and major cleaning was done in that aspect.
  It was first duplicated and the duplicate column was called summary fix. Using the replace function in Power Query, important texts were extracted from the summaryfix column such as
-    - **Foggy in the morning** was replaced with ** Foggy **
-    - **Heavy rain in the morning** was replaced with ** Heavy Rain **
-    - **Snowy in the morning** was replaced with ** Snowy **
-      **Partly cloudy in the morning** was replaced with ** Partly cloudy **
+**Foggy in the morning** was replaced with **Foggy**
+**Heavy rain in the morning** was replaced with **Heavy Rain**
+**Snowy in the morning** was replaced with **Snowy**
+**Partly cloudy in the morning** was replaced with **Partly cloudy**
 ![](powerQuery.JPG)
 
 The Humidity column was originally in decimal format and was the converted to percentage format
