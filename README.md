@@ -36,9 +36,9 @@ This is a single table and contains 25 columns which are as follows
     -precip_type pressure
     -summary : Summary of the weather under which the sighting was recorded
     -uv_index: Ultaviolet light index when the sighting was recorded
-    -visibility: Visibility ranging from 1 to 10
-    -wind_bearing: direction of the wind when the sighting was recorded
-    -wind_speed: Wind speed when the sighting was recorded
+    visibility: Visibility ranging from 1 to 10
+    wind_bearing: direction of the wind when the sighting was recorded
+    wind_speed: Wind speed when the sighting was recorded
 There are 5,022 rows
 
 The data is gotten from Kaggle.
@@ -50,7 +50,7 @@ The summary column was very important in the analysis and major cleaning was don
     - **Foggy in the morning** was replaced with ** Foggy **
     - **Heavy rain in the morning** was replaced with ** Heavy Rain **
     - **Snowy in the morning** was replaced with ** Snowy **
-    ** Partly cloudy in the morning ** was replaced with ** Partly cloudy **
+      **Partly cloudy in the morning** was replaced with ** Partly cloudy **
 ![](powerQuery.JPG)
 
 The Humidity column was originally in decimal format and was the converted to percentage format
