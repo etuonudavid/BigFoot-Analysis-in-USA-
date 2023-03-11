@@ -46,19 +46,19 @@ The data is gotten from Kaggle.
 ## Data Transformation and cleaning
 The columns cleaned and transformed were the ones beign used for the analysis.
 The summary column was very important in the analysis and major cleaning was done in that aspect.
- It was first duplicated and the duplicate column was called summary fix. Using the replace function in Power Query, important texts were extracted from the summaryfix column such as
-**Foggy in the morning** was replaced with **Foggy**
-**Heavy rain in the morning** was replaced with **Heavy Rain**
-**Snowy in the morning** was replaced with **Snowy**
-**Partly cloudy in the morning** was replaced with **Partly cloudy**
+It was first duplicated and the duplicate column was called summary fix. Using the replace function in Power Query, important texts were extracted from the summaryfix column such as:
+- **Foggy in the morning** was replaced with **Foggy**
+- **Heavy rain in the morning** was replaced with **Heavy Rain**
+- **Snowy in the morning** was replaced with **Snowy**
+- **Partly cloudy in the morning** was replaced with **Partly cloudy**
 ![](powerQuery.JPG)
 
-The Humidity column was originally in decimal format and was the converted to percentage format
-The Visibility column was a continuous variable and had alot of values after the decimal. These were grouped into bins with interval of 0.4
-the min value is 0.74 and the max value is 10
+- The Humidity column was originally in decimal format and was the converted to percentage format
+- The Visibility column was a continuous variable and had alot of values after the decimal. These were grouped into bins with interval of 0.4
+    the min value is 0.74 and the max value is 10
 ![](binning_visibility.JPG)
-The wind speed column was a continuous variable and had alot of values after the decimal. These were grouped into bins with interval of 1
-the min value is 0 and the max value is 23.94.
+- The wind speed column was a continuous variable and had alot of values after the decimal. These were grouped into bins with interval of 1
+ the min value is 0 and the max value is 23.94.
 ![](binning_wind.JPG)
 
 ## Modelling.
