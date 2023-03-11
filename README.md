@@ -1,11 +1,11 @@
 # Analysis of Bigfoot Sightings In The United States.
 
-## Introduction:
+## Introduction
     This is a Microsoft Power BI analysis of the recorded sightings of Bigfoot in the united states
     from the 1960's to 2021 and the weather conditions in whhich these sightings were recorded.
     This data is from the monthly dataDNA challenge hosted by Pomerol Partners, Qlick, Packt Pub, DataCated and novypro.
 
-## Skills Dmonstrated:
+## Skills Dmonstrated
     The following Power BI skills were demonstrated during this project:
     DAX, Power Query(for cleaning and Transformation), Binning and filters
 
@@ -47,9 +47,9 @@ The data is gotten from Kaggle.
 The columns cleaned and transformed were the ones beign used for the analysis.
 The summary column was very important in the analysis and major cleaning was done in that aspect.
  It was first duplicated and the duplicate column was called summary fix. Using the replace function in Power Query, important texts were extracted from the summaryfix column such as
-    - ** Foggy in the morning ** was replaced with ** Foggy **
-    - ** Heavy rain in the morning ** was replaced with ** Heavy Rain **
-    - ** Snowy in the morning ** was replaced with ** Snowy **
+    - **Foggy in the morning** was replaced with ** Foggy **
+    - **Heavy rain in the morning** was replaced with ** Heavy Rain **
+    - **Snowy in the morning** was replaced with ** Snowy **
     ** Partly cloudy in the morning ** was replaced with ** Partly cloudy **
 ![](powerQuery.JPG)
 
