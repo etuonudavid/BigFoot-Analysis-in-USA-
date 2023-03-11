@@ -14,31 +14,31 @@
 
 ## Data Sourcing
 This is a single table and contains 25 columns which are as follows
--observed: What the observer was doinh when he saw Bigfoot
--county: What county in the United States was the sighting recorded
--state: What state was the sighting recorded
--season: What season of the year was the sighting recorded
--title : The report title
--latitude: Lattitude of the place
--longitude: Longitude of the place
--dateL:The date the sighting was recorded
--number:
--classification: classification of the sighting: Type A(The observer saw Bigfoot), Type B(The observer saw a sign of Bigfoot such as Bigfoot), Type C (The observer was told and did not see directly)
--temperature_high: Highest temperature of the day
--temperature_mid: Medium temperature of the day
--temperature_low: lowest temperature of the day
--dew_point:
--humidity:
--cloud_cover:
--moon_phase: The phase of the moon when the sighting was recorded
--precip_intensity
--precip_probability
--precip_type pressure
--summary : Summary of the weather under which the sighting was recorded
--uv_index: Ultaviolet light index when the sighting was recorded
-visibility: Visibility ranging from 1 to 10
-wind_bearing: direction of the wind when the sighting was recorded
-wind_speed: Wind speed when the sighting was recorded
+- observed: What the observer was doinh when he saw Bigfoot
+- county: What county in the United States was the sighting recorded
+- state: What state was the sighting recorded
+- season: What season of the year was the sighting recorded
+- title : The report title
+- latitude: Lattitude of the place
+- longitude: Longitude of the place
+- dateL:The date the sighting was recorded
+- number:
+- classification: classification of the sighting: Type A(The observer saw Bigfoot), Type B(The observer saw a sign of Bigfoot such as Bigfoot), Type C (The observer was told and did not see directly)
+- temperature_high: Highest temperature of the day
+- temperature_mid: Medium temperature of the day
+- temperature_low: lowest temperature of the day
+- dew_point:
+- humidity:
+- cloud_cover:
+- moon_phase: The phase of the moon when the sighting was recorded
+- precip_intensity
+- precip_probability
+- precip_type pressure
+- summary : Summary of the weather under which the sighting was recorded
+- uv_index: Ultaviolet light index when the sighting was recorded
+- visibility: Visibility ranging from 1 to 10
+- wind_bearing: direction of the wind when the sighting was recorded
+- wind_speed: Wind speed when the sighting was recorded
 There are 5,022 rows
 
 The data is gotten from Kaggle.
@@ -83,4 +83,4 @@ bad weather didnt mislead some or all the people who reported that they saw Bigf
 
 More research can be carried out into how Big foot looks like and the reporters could be evaluated to see if they mistook a person, an ape or any other animal for Bigfoot.
 
-** Thanks for reading **
+**Thanks for reading**
